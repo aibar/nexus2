@@ -6,9 +6,9 @@ VOLUME /data
 
 ENV RUN_AS_USER=root
 
-ENTRYPOINT ["/nexus-2.14.0-01/bin/nexus", "console"]
+ENTRYPOINT ["/nexus-2.14.1-01/bin/nexus", "console"]
 
-RUN wget http://dl.bintray.com/walkingdevs/mirrors/nexus-2.14.0-01.tar.gz \
+RUN wget http://dl.bintray.com/walkingdevs/mirrors/nexus-2.14.1-01.tar.gz \
          -O nexus.tar.gz && \
     tar xfv nexus.tar.gz && \
     rm nexus.tar.gz
