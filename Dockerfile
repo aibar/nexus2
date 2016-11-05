@@ -13,4 +13,4 @@ RUN wget http://dl.bintray.com/walkingdevs/mirrors/nexus-2.14.1-01.tar.gz \
     tar xfv nexus.tar.gz && \
     rm nexus.tar.gz
 
-COPY nexus.properties /nexus-2.14.0-01/conf
+COPY nexus.properties /nexus-2.14.1-01/conf
